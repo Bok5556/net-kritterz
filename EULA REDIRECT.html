@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Access Denied</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 { color: red; }
+    .back-button {
+      background-color: red;
+      color: white;
+      font-size: 20px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .back-button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>Access Denied</h1>
+  <p>You declined the EULA. You cannot play Net Kritterz.</p>
+  <p>Redirecting you back to the homepage in 5 seconds...</p>
+
+  <!-- Big Red Button -->
+  <button class="back-button" onclick="goBack()">Go Back Now</button>
+
+  <script>
+    // Redirect after 5 seconds
+    setTimeout(function() {
+      window.location.href = "index.html";
+    }, 5000);
+
+    // Manual redirect with button
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
