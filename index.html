@@ -11,6 +11,20 @@
 <h1>Net Kritterz indie remake</h1>
 <p1>An independent 2D virtual pet revival. Expected Release Date: Early 2028.</p1>
 
+<div id="eulaModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5);">
+    <div style="background: white; margin:10% auto; padding:20px; width:80%; max-width:500px; border-radius:8px; text-align:left;">
+      <h2>End User License Agreement</h2>
+      <p>By playing Net Kritterz, you agree:</p>  
+      <ul>
+        <li>Play for personal entertainment only</li>
+        <li>No copying, editing, or redistributing the code</li>
+        <li>No reverse engineering</li>
+      </ul>
+      <button onclick="acceptEULA()" style="background: green; color: white; padding:10px; border:none; border-radius:5px;">Accept</button>
+      <button onclick="declineEULA()" style="background: red; color: white; padding:10px; border:none; border-radius:5px; margin-left:10px;">Decline</button>
+    </div>
+  </div>
+
   <button onclick="sayOne()" style="background-color: gold; padding: 10px; ">Follow the 2028 Development Journey</button>
  <button onclick="sayTwo()" style="position: fixed; bottom: 20px; left: 20px; background-color: brown; color:antiquewhite;">About Net Kritterz Indie remake</button>
 <button onclick="sayThree()" style="position: fixed; bottom: 20px; right: 20px;">Game version</button>
@@ -21,6 +35,25 @@
                                   
      function sayTwo() {alert("Get ready to adopt, raise, and love your new digital petz! Here is a sneak peek at what you can do:\n•Play fun mini-games to earn Kritter-Kash🤑🤑\n•Dress them up in snazzy and fun outfits💲💲💲\n•Buy them yummy treats🍬🍭🍖🍗  And keep them HAPPY😊😊  Coming soon! "); }  
  function sayThree() {alert("the Current GAME VERSION: 0.0.1");}
+
+function showEULA() {
+      if (!localStorage.getItem("eulaAccepted")) {
+        document.getElementById("eulaModal").style.display = "block";
+      }
+    }
+
+    function acceptEULA() {
+      localStorage.setItem("eulaAccepted", "true");
+      document.getElementById("eulaModal").style.display = "none";
+      alert("Thank you! You accepted the EULA.");
+    }
+
+    function declineEULA() {
+      window.location.href = "EULA REDIRECT.html"; // send player to decline page
+    }
+
+    window.onload = showEULA;
+
 </script>
 </body>
 </html>
