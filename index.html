@@ -26,12 +26,43 @@
     </div>
   </div>
 
-  <button onclick="sayOne()" style="background-color: gold; padding: 10px; ">Follow the 2028 Development Journey</button>
- <button onclick="sayTwo()" style="position: fixed; bottom: 20px; left: 20px; background-color: brown; color:antiquewhite;">About Net Kritterz Indie remake</button>
-<button onclick="sayThree()" style="position: fixed; bottom: 20px; right: 20px;">Game version</button>
+  <button onclick="sayOne()" style="background-color: gold; padding: 10px; border-radius: 5px;">Follow the 2028 Development Journey</button>
+ <button onclick="sayTwo()" style="position: fixed; bottom: 20px; left: 20px; background-color: brown; color:antiquewhite; border-radius: 5px;">About Net Kritterz Indie remake</button>
+<button onclick="sayThree()" style="position: fixed; bottom: 20px; right: 20px; border-radius: 15px;">Game version</button>
+
+
+
+<!-- Button to open the modal -->
+<button id="aboutBtn" style="padding: 10px 20px; background-color: #2e4a3f; color: white; border: none; border-radius: 5px; cursor: pointer;">About Game</button>
+
+<!-- THE MODAL OVERLAY -->
+<div id="aboutModal" class="modal-overlay">
+    <!-- Modal Content Window -->
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close-button">&times;</span>
+        
+        <h2>About the Game</h2>
+        <p>Welcome to the Net Kritterz Indie Remake! Take care of your virtual pet, keep them healthy, and explore a peaceful world.</p>
+        
+        <h3>System Requirements</h3>
+        <ul>
+            <li><strong>OS:</strong> Web Browser (Windows, Mac, Linux)</li>
+            <li><strong>Processor:</strong> Dual-Core CPU (Intel Celeron or equivalent)</li>
+            <li><strong>Memory:</strong> 64 MB RAM minimum</li>
+            <li><strong>Storage:</strong> Less than 50 MB available space</li>
+        </ul>
+    </div>
+</div>
+
 
 
   <script src="script.js"></script>
+
+
+
+
+
+
 </body>
 </html>
    
