@@ -6,7 +6,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 
 
-/* Hidden by default; covers the entire viewport */
+/* Hidden by default; covers the entire viewport */ 
 .modal-overlay {
     display: none; 
     position: fixed;
