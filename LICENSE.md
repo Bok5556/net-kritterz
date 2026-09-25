@@ -3,7 +3,7 @@ Version 2.0
 
 **Original Release Date:** September 2, 2026  
 **License Effective Date:** September 9, 2026  
-**Game Version(s):** v0.0.& - Coming Soon Page (Released September 2026)
+**Game Version(s):** v0.0.8 & - Coming Soon Page (Released September 2 2026)
 
 Copyright © 2026 Bok5556  
 All Rights Reserved.
