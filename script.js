@@ -1,7 +1,7 @@
- function sayOne()  {alert("All Developmental news & updates can be found here.--------------------------------------------------\nNET KRITTERZ DEV LOG\n--------------------------------------------------\n\nNOW BUILDING - v1.0 | Days 40-50\nTitle: Building The Interface\n\nI built the main game box, learned how to position elements using CSS, improved text styling, and started creating the pet naming screen.\n\nNet Kritterz is beginning to look more like a real game instead of just a collection of code.\n\n--------------------------------------------------\nNext Up: Days 51-60 - Connecting The Naming");}
+ function sayOne()  {alert("All Developmental news & updates can be found here.--------------------------------------------------\nNET KRITTERZ DEV LOG\n--------------------------------------------------\n\nNOW BUILDING - v1.1 | Days 50-60\nTitle: Styling The Interface\n\nI learned how to style buttons, organize different div containers, and improve the visual layout of the game.\n\nNet Kritterz now looks cleaner and more interactive than before.\n\n--------------------------------------------------\nNext Up: Days 61-70 - Dynamic Page Functions\n--------------------------------------------------");}
                                   
      function sayTwo() {alert("Get ready to adopt, raise, and love your new digital petz! Here is a sneak peek at what you can do:\n•Play fun mini-games to earn Kritter-Kash🤑🤑\n•Dress them up in snazzy and fun outfits💲💲💲\n•Buy them yummy treats🍬🍭🍖🍗  And keep them HAPPY😊😊  Coming soon! "); }  
- function sayThree() {alert("the Current GAME VERSION: 0.0.8");}
+ function sayThree() {alert("the Current GAME VERSION: 0.0.9");}
 
 function showEULA() {
       if (!localStorage.getItem("eulaAccepted")) {
