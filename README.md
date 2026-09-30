@@ -5,7 +5,7 @@ This is the official coming soon page for Net Kritterz, an upcoming indie 2D vir
 [![Status](https://img.shields.io/badge/status-upcoming%20beta-orange)]()
 [![Platform](https://img.shields.io/badge/platform-web%20browser-lightgrey)]()
 [![Release Window](https://img.shields.io/badge/release%20window-late%202026-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
+[![License](https://img.shields.io/badge/license-CUSTOM-blue)]()
 
 ## About the Project
 Net Kritterz is an independent 2D virtual pet revival project inspired by the charm of caring for a digital companion. The goal is to recreate that feel in a fresh and modern browser-friendly experience.
@@ -47,22 +47,7 @@ The Late 2026 Beta is an upcoming preview milestone for Net Kritterz. It is not 
 - Stable internet connection
 - Updated operating system
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Bok5556/net-kritterz.git
-   cd net-kritterz
-   ```
 
-2. Open `index.html` in a browser, or run a local web server:
-   ```bash
-   python -m http.server 8000
-   ```
-
-3. Visit:
-   ```text
-   http://localhost:8000
-   ```
 
 ## Project Structure
 ```text
@@ -97,14 +82,9 @@ This project includes legal documents to clarify how the code and assets may be 
 Please review the relevant legal files before using, modifying, or redistributing the project.
 
 ## Contributing
-Contributions are welcome as development grows.
+Contributions are not welcome as development grows.
 
-### Suggested workflow
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test locally in a browser
-5. Submit a pull request with a clear summary
+
 
 ## Contact
 - GitHub: https://github.com/Bok5556
